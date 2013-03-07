@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(Img/Watch_tower.jpg);
+	
+}
+#dec_table td
+{
+	background-image:url(Img/tab_bcg.jpg);
+	opacity:0.55;
+	filter:alpha(opacity=55); /* For IE8 and earlier */
+		
+}
+#title
+{	
+	width:1200px;
+	height:50px;
+	margin:20px 60px 5px 60px;
+	
+	/*background-image:url(Img/title_bcg.jpg);
+	opacity:0.8;
+	filter:alpha(opacity=80);*/
+	
+}
+#ch_de
+{
+	margin-bottom:0px;
+	font-size:22px;	
+}
+#decade
+{
+	width:1200px;
+	height:100px;
+	/*border:2px solid #000;*/
+	margin:5px 60px;
+	background-color:#e5d3b1;
+	background-color: rgba(229,211,177,0.8);
+	text-align:center;
+	color:#94440f;
+}
+#Caln_title
+{
+	text-decoration:underline;
+	font-size:22px;
+	/*color:#a68556;*/
+	color:#94440f;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	position:absolute;
+	left:33%;
+	top:5%;
+	
+}
+#yr
+{
+	position:absolute;
+	width:500px;
+	height:12%;
+	/*border:2px solid #000;*/
+	left:30%;
+	top:30%;
+	background-color:#e5d3b1;
+	background-color: rgba(229,211,177,0.8);
+	text-align:center;
+	color:#94440f;
+	font-size:22px;
+}
+
+#caln
+{
+	position:absolute;
+	width:50%;
+	height:60%;
+	
+	left:23%;
+	top:40.2%;
+	background-image:url(Img/oldpaper.png);
+	background-position:right;
+	opacity:0.95;
+	filter:alpha(opacity=95);
+		
+}
+
+#prev
+{
+	position:absolute;
+	width:280px;
+	height:40px;
+	left:10%;
+	top:50%;
+		
+}
+
+#nxt
+{
+	position:absolute;
+	width:280px;
+	height:40px;
+	right:10%;
+	top:50%;
+		
+}
+
+	
+img
+{
+opacity:0.6;
+filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+img:hover
+{
+opacity:1.0;
+filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+#topimage
+{
+	position:absolute;
+	left:35%;
+	top:3%;
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+#title
+{
+	position:relative;
+	left:45%
+	top:5%;
+	font-size:35px;
+	color:#94440f;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	
+}
+.MyDiv
+{
+	display:none;
+	
+}
+#calendar
+{
+	position:absolute;
+	left:20%;
+	top:25%;
+	
+}
+.dis_but
+{
+	width:80px;
+	height:20px;
+	background-image:url(Img/Button_bcg.jpg);
+	cursor: pointer; /* hand-shaped cursor */
+	cursor: hand;	
+}
+select
+{ background-image:url(Img/tab_bcg.jpg);
+}

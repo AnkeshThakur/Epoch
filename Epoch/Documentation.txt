@@ -1,0 +1,47 @@
+The Epoch Calendar
+-------------------------
+
+Developed by the team: Soft Coders
+Team Members: Deepak Sharma (ID:18817)
+	      Ankesh Km. Thakur (ID:24624)
+	      Gujjula Harsha Vardhan Reddy (ID:18852)
+
+----------------------------------
+
+Description of the app:
+
+The Epoch calendar is a web-based application that displays the calendar of any month of any year. The range of year given
+is from 1902 to 2037. It is built using php, html, css and javascript. 
+
+The whole code is contained in a single file called as index.php
+Two parameters, namely year and month are passed to index.php. In case, no parameters are passed, the page stores current
+system date value in the corresponding variables.
+
+The whole page is divided into 5 divs:
+	1. Title div: Shows the title of the calendar. This div contains an image and a text.
+
+	2. Decade div: This div contains tabs for choosing decade. It is provided so that user doesn't need to scroll up
+		through a long list as categorising into decades will shorten up the 'year' list and now it will contain
+		only ten values. The decade tabs are made using a single row table, with an image provided as the background
+		for each cell and onClick events are specified for each cell. On clicking a particular cell, a javascript
+		function is called, and the div(Year div) corresponding to that cell is displayed and rest are hide.
+
+	3. Year div: This div is displayed when a decade is choosen from the decade list. It contains a from with two select
+		elements, year and month. User has to choose from these values to display the calendar for the desired 
+		month. On submitting the form, year and month values are passed to same page i.e. index.php via GET method.
+
+	4. Calendar div: This divs displays the calendar of the month choosen by the user. It contains a background image on
+		which calendar is displayed. The calendar is generated using date() function of php. A table, with desired
+		number of rows is prepared by the code, and values are filled in the cells. 
+		Code behind the calendar: Two variables, $year and $month are used to store the values of the year and
+		month for which the calendar has to be prepared. Three variables, $no_of_days(used for storing number of
+		days of the month choosen), $strt_day(used for storing the day at which 1st date of month falls) and $blanks
+		(used for storing the blank spaces before the 1st date of month) are initialised. Then a php script is 
+		executed to fill the cells of the table with corresponding date values.
+ 
+	5  Prev/next divs: These divs are made for easier navigation between different months. It has been constructed as
+		an additional feature with the calendar. These divs contains images with link provided to each image.
+		Prev div, on clicking, passes value of the month previous to the value currently stored in $month, to
+		index.php, and hence, calendar for previous month is displayed. Similarly, for next div, link is provided
+		that, on clicking, passes month value one greater to index.php and hence, calendar for next month is displayed.
+-----------------------------------------------------------------------------------------------------------------------------------
